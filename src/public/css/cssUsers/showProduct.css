@@ -1,0 +1,28 @@
+.btnSelectSize {
+    border: 1px solid black;
+    background-color: rgb(255, 230, 208);
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btnSelectSize:focus {
+    background-color:rgb(190, 198, 153);
+}
+.btnUpdate1 {
+    background-color :#04AA6D;
+    color: white;
+    padding: 10px;
+    margin: 7px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+.btn:disabled,
+.btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}

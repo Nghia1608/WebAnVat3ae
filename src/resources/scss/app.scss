@@ -1,0 +1,11 @@
+@import 'variable';
+
+h1{
+  color : blue($color: #000000) ;
+}
+h2{
+  color: green;
+}
+.card-products-item{
+  margin-top: 16px;
+}

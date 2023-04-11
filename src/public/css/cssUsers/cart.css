@@ -1,0 +1,148 @@
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; 
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding:  16px;
+}
+
+.container {
+  padding: 5px 20px 15px 20px;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 30%;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 17px;
+
+}
+.btnUpdate {
+  background-color :#04AA6D;
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btnDelete {
+  background-color: rgb(224, 77, 77);
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  border: none;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btnUpdate1 {
+  background-color :#04AA6D;
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btnDelete1 {
+  background-color: rgb(224, 77, 77);
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btnCancel {
+  background-color: rgb(115, 112, 112);
+  color: white;
+  padding: 10px;
+  margin: 7px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+
+.btn:hover {
+  background-color: orange
+  ;
+}
+.btn:disabled,
+.btn[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.imageProduct{
+  width:40px;
+  height:40px;
+}
+.imageProduct:hover{
+  height: 400px;
+  width: 400px;
+}
+span.price {
+  float: right;
+  color: grey;
+}
+
+.textUser:disabled,
+.textUser[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
